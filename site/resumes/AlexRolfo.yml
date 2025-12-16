@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Alexandra
+  last_name: Rolfo
+
+  # Define yourself in 4-5 words
+  motto: "Natural problem solver"
+
+  # Focus
+  focus: "Frontend Junior Developer"
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Developer in training focused on web programming.
+    Practical experience with HTML5, CSS3, and JavaScript fundamentals applied in real projects.
+    Analytical, consistent, and learning-driven profile, with strong problem-solving skills and motivation to grow as a junior developer.
+
+    Background in digital projects and online environments, providing a strong understanding of user needs and workflows.
+    Comfortable working step by step, debugging code, and adapting quickly to new tools, technologies, and development challenges.
+
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/
+  # and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: "https://avatars.githubusercontent.com/u/131758342?v=4"
+
+  # Contact Information
+  email: alexandrarolfo@gmail.com # optional
+  phone: "+34 681 31 86 06" # optional
+  website: disidigi.com # optional
+  linkedin: "https://www.linkedin.com/in/alexandra-rolfo-05a355195/" # optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this:
+  # http://sep.breatheco.de/sharu725
+  github: alexrolfo
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+
+  # Interests or hobbies
+  interests:
+    - item: Videogames
+    - item: Tech
+    - item: Business
+
+# Your previous education
+education:
+  - degree: Full Stack Developer (Frontend Focus)
+    university: 4Geeks Academy Spain
+    university_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    time: November 2025 - April 2026
+    details: |
+      Intensive web development program with a strong focus on frontend technologies and fundamentals.
+      Training is based on hands-on practice, clean code principles, and real-world problem solving.
+
+        - HTML5, CSS3, and JavaScript fundamentals
+        - Responsive layouts and frontend structure
+        - Git version control and collaborative workflows
+        - Debugging and step-by-step problem solving
+
+  - degree: Vocational Training in Administrative Management and Accounting
+    university: CIP Ondara
+    time: January 2024 - September 2024
+    details: |
+      Vocational training focused on structured processes, documentation, and accuracy.
+      This background reinforces analytical thinking, organization, and attention to detail applied to frontend development.
+
+        - Process organization and documentation
+        - Digital tools for professional environments
+        - Analytical and structured workflows
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Founder & CEO
+    time: October 2025 - Present
+    company: disiDIGI
+    details: |
+      Founder of a digital project focused on supporting freelancers and small businesses.
+      Experience working with websites, digital tools, and user-oriented solutions.
+
+        - Understanding user needs and digital workflows
+        - Project organization and coordination
+        - Continuous learning in web technologies
+
+  - role: Administrative Assistant
+    time: January 2025 - Present
+    company: OSA Equipment S.L.
+    details: |
+      Administrative role in an industrial company, strengthening structured thinking and accuracy.
+      Skills developed here translate directly into frontend development discipline.
+
+        - Data management and documentation
+        - Process organization and consistency
+        - Professional teamwork and responsibility
+
+  - role: Project Development Coordinator
+    time: May 2023 - February 2025
+    company: De Amicitia
+    details: |
+      Coordination of international volunteer and educational projects.
+      Strong exposure to teamwork, communication, and complex workflows.
+
+        - Project planning and coordination
+        - Cross-cultural communication
+        - Use of digital tools in collaborative environments
+
+  - role: General Manager
+    time: June 2020 - August 2024
+    company: Gestión ID
+    details: |
+      Management role involving decision-making, organization, and leadership.
+      Developed problem-solving skills and responsibility transferable to development teams.
+
+        - Team coordination and planning
+        - Strategic organization
+        - Accountability and adaptability
+
+# Your project portfolio
+projects:
+  intro: >
+    Currently building frontend skills through structured training and continuous practice.
+    Focused on mastering core technologies and best practices before developing public projects.
+
+  assignments:
+    - title: Frontend Practice Exercises
+      tagline: "HTML and CSS layouts focused on structure, semantics, and responsiveness."
+    - title: JavaScript Fundamentals
+      tagline: "Logic exercises and small scripts to strengthen core programming skills."
+    - title: Learning Projects
+      tagline: "Personal practice projects created during training to reinforce frontend concepts."
+
+# Your skills
+skills:
+  toolset:
+    - name: HTML5
+      level: 80%
+    - name: CSS3
+      level: 80%
+    - name: JavaScript (Fundamentals)
+      level: 70%
+    - name: Responsive Design
+      level: 70%
+    - name: Git & Version Control
+      level: 65%
+    - name: Frontend Development Fundamentals
+      level: 70%
+    - name: Problem Solving & Debugging
+      level: 75%
